@@ -9,7 +9,7 @@ body {
     left:0;
     bottom:0;
     padding:12px;
-    width: 300px;
+    width: 200px;
 
 }
 
@@ -26,18 +26,42 @@ body {
     background-color: var(--bg-darker);
     display: flex;
     border-radius: 14px;
-    margin: 0 350px 0 350px;
+    margin: 0 250px 0 250px;
 
 }
 .spring ul{
     list-style-type: none;
 }
 
-.spring ul li{
-    border: 1px solid #fff;
+.spring .profile ul li{
+    display: grid;
+    justify-items: center;
+    grid-template-columns: 1fr 1fr;
+    color: #121212;
+    background-color: bisque;
+    border: 2px solid #fff;
+    margin-right: 50px;
+    border-radius: 8px;
+    padding: 2px;
+
 
 }
 
-img {
-    max-width: 15%;
+.profile {
+    
+    border-radius: 8px;
+    display: grid;
+ 
+
 }
+
+.names ul li {
+    display: grid;
+    border: 2px solid #fff;
+    border-radius: 8px;
+    width: 200px;
+    padding: 6px 0 6px 0;
+    justify-content: center;
+
+}
+
